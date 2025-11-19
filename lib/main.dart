@@ -151,6 +151,16 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
               ),
+
+              SizedBox(height: 20),
+
+              Text(
+                message,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
+                ),
+              )
             ],
           ),
         ),
