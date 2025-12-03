@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "Olá, $userName! 📚",
+                  "Olá, $userName!",
                   style: GoogleFonts.poppins(
                     color: const Color(0xFFD1D5DB),
                     fontSize: 14,
