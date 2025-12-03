@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692336684572",
+    "project_id": "dreambound-55d67",
+    "storage_bucket": "dreambound-55d67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692336684572:android:f09d90e8edba3ba78c39d9",
+        "android_client_info": {
+          "package_name": "com.dreambound.dreambound"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWgfuuSiE3Afq81JsZFwz_l7bbSlKM6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

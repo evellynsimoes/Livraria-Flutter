@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'Home.dart';
+import 'home.dart';
 
 class Gotohome extends StatelessWidget {
   const Gotohome({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         body: Column(
           children: [
             Container(
@@ -44,10 +43,10 @@ class Gotohome extends StatelessWidget {
 
             ElevatedButton(
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => Home()),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Home()),
+                );
               }, 
               style: ElevatedButton.styleFrom(
                 backgroundColor: Color(0xFF2F53D8),
@@ -66,7 +65,6 @@ class Gotohome extends StatelessWidget {
             )
           ],
         ),
-      ),
     );
   }
 }
